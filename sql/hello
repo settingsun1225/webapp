@@ -1,0 +1,7 @@
+CREATE TABLE `hello` (
+  `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '自增id',
+  `type` int(2) NOT NULL DEFAULT '0' COMMENT '0-默认，1-处理',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into hello (type) values(12),(33),(1),(4);
