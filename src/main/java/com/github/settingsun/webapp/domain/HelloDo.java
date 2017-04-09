@@ -1,7 +1,7 @@
-package com.home.liuyi.webapp.domain;
+package com.github.settingsun.webapp.domain;
 
 /**
- * Created by liuyi on 17/3/2.
+ * Created by settingsun1225 on 17/3/2.
  */
 public class HelloDo {
     private int id;

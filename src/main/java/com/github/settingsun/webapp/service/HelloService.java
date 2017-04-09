@@ -1,12 +1,12 @@
-package com.home.liuyi.webapp.service;
+package com.github.settingsun.webapp.service;
 
-import com.home.liuyi.webapp.domain.HelloDo;
-import com.home.liuyi.webapp.domain.mapper.HelloMapper;
+import com.github.settingsun.webapp.domain.HelloDo;
+import com.github.settingsun.webapp.domain.mapper.HelloMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by liuyi on 17/3/2.
+ * Created by settingsun1225 on 17/3/2.
  */
 @Service
 public class HelloService {

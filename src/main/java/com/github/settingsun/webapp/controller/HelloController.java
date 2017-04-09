@@ -1,7 +1,7 @@
-package com.home.liuyi.webapp.controller;
+package com.github.settingsun.webapp.controller;
 
-import com.home.liuyi.webapp.service.HelloBo;
-import com.home.liuyi.webapp.service.HelloService;
+import com.github.settingsun.webapp.service.HelloBo;
+import com.github.settingsun.webapp.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Created by liuyi on 17/3/2.
+ * Created by settingsun1225 on 17/3/2.
  */
 @Controller
 @RequestMapping(value = "/api")

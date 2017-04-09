@@ -11,7 +11,7 @@
     <context:annotation-config/>
 
     <!-- 扫描除了controller之外的包 -->
-    <context:component-scan base-package="com.home.liuyi.webapp">
+    <context:component-scan base-package="com.github.settingsun.webapp">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 </beans>
