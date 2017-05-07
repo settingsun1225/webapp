@@ -8,7 +8,7 @@
        http://www.springframework.org/schema/cache/spring-cache.xsd">
 
     <!-- 支持注解配置 -->
-    <cache:annotation-driven mode="aspectj"/>
+    <cache:annotation-driven/>
     <!--<context:load-time-weaver aspectj-weaving="on"/>-->
 
     <bean id="cacheManager" class="org.springframework.cache.guava.GuavaCacheManager">
